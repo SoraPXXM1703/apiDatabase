@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('Black.jpg'); /* เพิ่มภาพพื้นหลัง */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center; /* จัดกลาง */
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input {
+    /* ... */
+    border: 2px solid #ccc; /* เพิ่มขนาดเส้นขอบ */
+    border-radius: 5px; /* ปรับมุมมน */
+}
+
+button {
+    /* ... */
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px; /* เพิ่มขนาดปุ่ม */
+    font-size: 18px;
+}
