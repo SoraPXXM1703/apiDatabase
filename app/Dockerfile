@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install --upgrade Flask==2.0.1 Werkzeug==2.0.2 flask_sqlalchemy uvicorn fastapi
 
 # ตั้งค่า environment variables
-ENV FLASK_APP=app.py
+ENV FLASK_APP=app/app.py
 ENV FLASK_ENV=production  
 
 # Expose the correct port (ในที่นี้ให้ Flask รันบนพอร์ต 8000)
