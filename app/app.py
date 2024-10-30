@@ -13,7 +13,7 @@ app = Flask(__name__)
 mydb = mysql.connector.connect(
   host="db",
   user="root",
-  password="12345",
+  password="root",
   database="sora_data",
 )
 
